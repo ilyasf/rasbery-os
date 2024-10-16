@@ -1,0 +1,34 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore compiled C files
+*.o
+*.out
+*.a
+*.so
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Raspberry Pi OS specific files
+*.img
+*.elf
+*.bin
